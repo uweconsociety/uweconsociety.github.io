@@ -22,6 +22,7 @@ const MemberId = Object.freeze({
   JIANING_LI: 'JIANING_LI',
   ISABEL_CHELAIDITE: 'ISABEL_CHELAIDITE',
   SARGUN_BHATTI: 'SARGUN_BHATTI',
+  ABDULLAH_AHSAN: 'ABDULLAH_AHSAN',
 });
 
 const MEMBERS = {
@@ -40,6 +41,7 @@ const MEMBERS = {
   [MemberId.JIANING_LI]: { name: "Jianing Li", major: "Master of Arts in Economics", photo: "Jianing_Li.jpeg" },
   [MemberId.ISABEL_CHELAIDITE]: { name: "Isabel Chelaidite", major: "Economics and Business", photo: "Isabel_Chelaidite.jpeg" },
   [MemberId.SARGUN_BHATTI]: { name: "Sargun Singh Bhatti", major: "Computer Science", photo: "Sargun_Bhatti.jpg" },
+  [MemberId.ABDULLAH_AHSAN]: { name: "Abdullah Ahsan", major: "TBD", photo: "Abdullah_Ahsan.jpg" },
 };
 
 function member(id, role) {
@@ -78,6 +80,7 @@ export const teamGroups = [
       member(MemberId.CHARLOTTE_GRIECO, "Research Analyst"),
       member(MemberId.FADEKEMI_ODU_ONIKOSI, "Research Writer"),
       member(MemberId.JIANING_LI, "Research Analyst"),
+      member(MemberId.ABDULLAH_AHSAN, "Research Analyst"),
     ],
   },
   {
